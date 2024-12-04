@@ -1,0 +1,227 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation Bar Styles */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    color: #ccc;
+  }
+  
+  .login-link {
+    margin-left: auto;
+  }
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Option Styles */
+  
+  .header-option {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .header-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .header-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Header Container Styles */
+  
+  .header-container {
+    margin-bottom: 20px;
+  }
+  
+  .header-container header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .header-container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .header-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-container li {
+    margin-right: 20px;
+  }
+  
+  .header-container a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header-container a:hover {
+    color: #ccc;
+  }
+  
+  /* Hero Section Styles */
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .hero-image img {
+    width: 25%;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+/* Testimonials Section Styles */
+
+.testimonials {
+    margin-bottom: 20px;
+  }
+  
+  .testimonials h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .testimonial {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .testimonial blockquote {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+  
+  .testimonial cite {
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+  }
+  
+  /* Add media query to make testimonials responsive */
+  
+  @media (max-width: 768px) {
+    .testimonial {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .testimonial {
+      width: 100%;
+    }
+  }
+  /* Footer Styles */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
